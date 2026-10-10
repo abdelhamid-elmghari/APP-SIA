@@ -1,0 +1,106 @@
+
+{
+  "region": "Drâa-Tafilalet, Morocco",
+  "catalogVersion": "1.1.0",
+  "destinations": [
+    {
+      "id": "ouarzazate",
+      "name": "Ait Ben Haddou",
+      "province": "Ouarzazate Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Ksar_ait_benhaddou.jpg/1280px-Ksar_ait_benhaddou.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ksar_ait_benhaddou.jpg",
+      "photographer": "Kassimi m'bark",
+      "license": "CC BY-SA 4.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "tinghir",
+      "name": "Todra Gorge",
+      "province": "Tinghir Province",
+      "imagePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Todgha_Gorge.jpg/1280px-Todgha_Gorge.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Todgha_Gorge.jpg",
+      "photographer": "Thomas Hartmann",
+      "license": "CC BY-SA 4.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "merzouga",
+      "name": "Merzouga Dunes",
+      "province": "Errachidia Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Dunes_de_Merzouga.jpg/1280px-Dunes_de_Merzouga.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunes_de_Merzouga.jpg",
+      "photographer": "Bernard Gagnon",
+      "license": "CC BY-SA 3.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "zagora",
+      "name": "Zagora & Draa Valley",
+      "province": "Zagora Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Zagora_maroc.jpg/1280px-Zagora_maroc.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zagora_maroc.jpg",
+      "photographer": "ismail ait elhaj",
+      "license": "CC BY-SA 3.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "errachidia",
+      "name": "Ziz Valley",
+      "province": "Errachidia Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Ziz_Valley_in_the_desert_of_Morocco.jpg/1280px-Ziz_Valley_in_the_desert_of_Morocco.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ziz_Valley_in_the_desert_of_Morocco.jpg",
+      "photographer": "Melminou",
+      "license": "CC BY-SA 4.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "skoura",
+      "name": "Kasbah Amridil - Skoura",
+      "province": "Ouarzazate Province",
+      "imagePath": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kasbah_Amridil_%2852122440715%29.jpg/1280px-Kasbah_Amridil_%2852122440715%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kasbah_Amridil_(52122440715).jpg",
+      "photographer": "Jam Willem Doormembal",
+      "license": "CC BY 2.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "dades_valley",
+      "name": "Dades Valley",
+      "province": "Tinghir Province",
+      "imagePath": "https://upload.wikimedia.org/wikipedia/commons/0/06/Winding_road_leading_into_the_Dades_gorges_in_the_Anti-Atlas_mountain_range%2C_Morocco.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winding_road_leading_into_the_Dades_gorges_in_the_Anti-Atlas_mountain_range,_Morocco.jpg",
+      "photographer": "Anderson sady",
+      "license": "CC BY-SA 3.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "erfoud",
+      "name": "Erfoud",
+      "province": "Errachidia Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Erfoud_%2854280087417%29.jpg/1280px-Erfoud_%2854280087417%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erfoud_(54280087417).jpg",
+      "photographer": "Jorge Franganillo",
+      "license": "CC BY 2.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    },
+    {
+      "id": "midelt",
+      "name": "Midelt",
+      "province": "Midelt Province",
+      "imagePath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Midelt_Morocco.jpg/1280px-Midelt_Morocco.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Midelt_Morocco.jpg",
+      "photographer": "Youness Kharbouch",
+      "license": "CC BY-SA 4.0",
+      "reviewStatus": "SOURCE_DESCRIPTION_MATCH",
+      "isVerifiedLocation": true
+    }
+  ]
+}

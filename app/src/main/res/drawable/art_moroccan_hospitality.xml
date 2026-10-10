@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Warm Canvas Background -->
+    <path
+        android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FAF5EE" />
+                <item android:offset="1.0" android:color="#EEDAC2" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Intricate Moroccan Brass Tray (Siniya) -->
+    <path
+        android:pathData="M70,165 a130,55 0 1,0 260,0 a130,55 0 1,0 -260,0 Z"
+        android:fillColor="#E2A64F" />
+    <path
+        android:pathData="M78,165 a122,50 0 1,0 244,0 a122,50 0 1,0 -244,0 Z"
+        android:fillColor="#F4BF68" />
+    <path
+        android:pathData="M85,165 a115,45 0 1,0 230,0 a115,45 0 1,0 -230,0 Z"
+        android:fillColor="#D8993F" />
+
+    <!-- Traditional Berber Teapot (Berrad) in Silver/Tin -->
+    <!-- Base -->
+    <path
+        android:pathData="M180,160 c-15,-5 -22,-20 -20,-35 c2,-18 15,-28 28,-30 c15,0 27,10 29,28 c2,16 -6,31 -21,37 z"
+        android:fillColor="#C0C6CF" />
+    <!-- Teapot highlight -->
+    <path
+        android:pathData="M185,100 c5,8 7,20 4,35 c-3,12 -8,18 -15,22 c8,0 16,-8 19,-20 c3,-14 0,-28 -8,-37 z"
+        android:fillColor="#DFE3E8" />
+    <!-- Lid & Finial knob -->
+    <path
+        android:pathData="M176,96 h24 v4 h-24 z M184,88 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0 z M186,92 h4 v4 h-4 z"
+        android:fillColor="#9AA2AE" />
+    <!-- Spout (curving spout for pouring high Moroccan mint tea) -->
+    <path
+        android:pathData="M165,130 c-18,-2 -28,-18 -32,-32 c1,10 8,24 22,32 z"
+        android:fillColor="#9AA2AE" />
+    <!-- Handle -->
+    <path
+        android:pathData="M214,115 c16,-4 24,10 22,22 c-2,10 -12,18 -22,18 c7,-3 14,-9 15,-17 c1,-9 -4,-18 -15,-23 z"
+        android:fillColor="#808996" />
+
+    <!-- Tamegroute Green Glazed Pottery Vase -->
+    <path
+        android:pathData="M285,165 c-12,-3 -18,-15 -14,-28 c4,-14 14,-22 24,-24 c12,0 22,8 24,22 c3,13 -4,26 -16,30 z"
+        android:fillColor="#2F6B4F" />
+    <path
+        android:pathData="M288,114 h14 v6 h-14 z M286,112 h18 v2 h-18 z"
+        android:fillColor="#25553E" />
+    <path
+        android:pathData="M290,125 c4,8 6,18 4,28 c5,-2 10,-8 11,-16 c1,-10 -3,-18 -8,-22 z"
+        android:fillColor="#4CA37B" />
+
+    <!-- Traditional Moroccan Tea Glasses with Golden Filigree Motif -->
+    <!-- Glass 1 -->
+    <path
+        android:pathData="M125,170 l-4,-25 h16 l-4,25 z"
+        android:fillColor="#E8A34A" />
+    <path
+        android:pathData="M123,153 h10 v2 h-10 z"
+        android:fillColor="#FFE899" />
+    <!-- Mint sprig in glass -->
+    <path
+        android:pathData="M128,145 c-3,-6 0,-12 3,-16 c-1,6 -3,11 -3,16 z M128,140 c3,-4 6,-5 10,-4 c-4,2 -6,6 -7,10 z"
+        android:fillColor="#2F6B4F" />
+</vector>

@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Kasbah Adobe Architecture & Desert Sun Motif -->
+    <!-- Golden Sun / Oasis Motif -->
+    <path
+        android:fillColor="#E9D3B7"
+        android:pathData="M54,26 C60.6,26 66,31.4 66,38 C66,44.6 60.6,50 54,50 C47.4,50 42,44.6 42,38 C42,31.4 47.4,26 54,26 Z" />
+    <!-- Kasbah Main Tower & Adobe Battlements -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,44 L38,44 L38,48 L42,48 L42,44 L46,44 L46,48 L50,48 L50,44 L58,44 L58,48 L62,48 L62,44 L66,44 L66,48 L70,48 L70,44 L74,44 L74,80 L34,80 Z" />
+    <!-- Center Kasbah Gate / Arch -->
+    <path
+        android:fillColor="#934528"
+        android:pathData="M48,80 L48,64 C48,60.7 50.7,58 54,58 C57.3,58 60,60.7 60,64 L60,80 Z" />
+    <!-- Amazigh Geometric Lozenge / Diamond Accent -->
+    <path
+        android:fillColor="#2D694D"
+        android:pathData="M54,44 L58,50 L54,56 L50,50 Z" />
+    <!-- Desert Dune sweep base -->
+    <path
+        android:fillColor="#E9D3B7"
+        android:pathData="M24,78 C38,72 50,76 68,72 C80,69 88,74 92,78 L92,84 L24,84 Z" />
+</vector>

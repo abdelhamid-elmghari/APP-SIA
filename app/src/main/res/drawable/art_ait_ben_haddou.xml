@@ -1,0 +1,100 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Sky Gradient -->
+    <path
+        android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FCEFD8" />
+                <item android:offset="0.5" android:color="#F7D8B5" />
+                <item android:offset="1.0" android:color="#E8B084" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mountain Backdrop (High Atlas foothills) -->
+    <path
+        android:pathData="M0,120 L70,80 L140,110 L230,65 L320,100 L400,75 L400,240 L0,240 Z"
+        android:fillColor="#C6764B" />
+
+    <!-- Hill slope of the Ksar -->
+    <path
+        android:pathData="M30,220 Q120,110 200,90 Q300,105 380,220 Z"
+        android:fillColor="#A95431" />
+
+    <!-- Granary / Agadir at summit -->
+    <path
+        android:pathData="M185,78 h30 v18 h-30 z"
+        android:fillColor="#7D3618" />
+    <path
+        android:pathData="M182,76 h36 v3 h-36 z"
+        android:fillColor="#5A230D" />
+
+    <!-- Upper Kasbah Complex & Adobe Towers -->
+    <path
+        android:pathData="M150,110 h24 v35 h-24 z M190,100 h35 v45 h-35 z M240,115 h26 v30 h-26 z"
+        android:fillColor="#914322" />
+
+    <!-- Crenelated tower battlements -->
+    <path
+        android:pathData="M150,108 l4,-4 l4,4 l4,-4 l4,4 l4,-4 l4,4 M190,98 l5,-5 l5,5 l5,-5 l5,5 l5,-5 l5,5 l5,-5 l5,5 M240,113 l4,-4 l4,4 l4,-4 l4,4 l4,-4 l4,4"
+        android:strokeColor="#6E2C11"
+        android:strokeWidth="2" />
+
+    <!-- Main Central Ksar Frontage -->
+    <path
+        android:pathData="M110,140 h180 v55 h-180 z"
+        android:fillColor="#B76239" />
+    <path
+        android:pathData="M95,150 h30 v45 h-30 z M275,145 h35 v50 h-35 z"
+        android:fillColor="#8C3F1E" />
+
+    <!-- Geometric Amazigh Kasbah Windows (slits and arches) -->
+    <path
+        android:pathData="M102,158 h5 v10 h-5 z M116,158 h5 v10 h-5 z M285,155 h5 v10 h-5 z M298,155 h5 v10 h-5 z M135,150 h6 v8 h-6 z M150,150 h6 v8 h-6 z M165,150 h6 v8 h-6 z M180,150 h6 v8 h-6 z"
+        android:fillColor="#471A0B" />
+    <path
+        android:pathData="M192,165 h16 v25 h-16 z"
+        android:fillColor="#3D1407" />
+
+    <!-- Riverbed Ounila and date palms in foreground -->
+    <path
+        android:pathData="M0,195 Q150,185 400,190 L400,240 L0,240 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="190"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E5C79E" />
+                <item android:offset="1.0" android:color="#D1AF7F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Emerald Date Palms lining the river -->
+    <!-- Palm 1 -->
+    <path
+        android:pathData="M50,210 c-2,-14 6,-28 15,-38 c-10,0 -20,6 -26,14 M65,172 c-5,-10 -15,-16 -26,-15 c10,8 14,20 12,30 M65,172 c5,-10 16,-16 26,-13 c-9,9 -13,20 -11,30 M65,172 c1,-12 8,-20 18,-24 c-4,12 -5,22 -3,31"
+        android:strokeColor="#2F6B4F"
+        android:strokeWidth="2.5" />
+    <path android:pathData="M65,172 l-2,40" android:strokeColor="#5E381C" android:strokeWidth="2.2" />
+
+    <!-- Palm 2 -->
+    <path
+        android:pathData="M330,212 c-2,-15 5,-29 14,-39 c-10,0 -19,6 -25,14 M344,173 c-5,-11 -15,-17 -26,-16 c10,8 14,20 12,31 M344,173 c5,-10 16,-16 26,-13 c-9,9 -13,20 -11,30"
+        android:strokeColor="#2F6B4F"
+        android:strokeWidth="2.5" />
+    <path android:pathData="M344,173 l-2,42" android:strokeColor="#5E381C" android:strokeWidth="2.2" />
+</vector>

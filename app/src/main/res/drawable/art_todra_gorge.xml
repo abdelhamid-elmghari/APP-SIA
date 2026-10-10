@@ -1,0 +1,76 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Deep Blue Sky visible between the 300m canyon gap -->
+    <path
+        android:pathData="M0,0h400v240h-400z"
+        android:fillColor="#7BA4C7" />
+
+    <!-- Left Canyon Sheer 300m Limestone Wall -->
+    <path
+        android:pathData="M0,0 L180,0 L150,60 L185,110 L140,160 L170,200 L160,240 L0,240 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="100"
+                android:endX="185"
+                android:endY="100"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#782F18" />
+                <item android:offset="0.6" android:color="#B35634" />
+                <item android:offset="1.0" android:color="#CC6E4A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left Cliff Stratifications / Texture -->
+    <path
+        android:pathData="M10,40 Q90,35 155,50 M0,90 Q80,85 170,105 M20,135 Q100,140 145,150 M0,180 Q80,175 165,195"
+        android:strokeColor="#571E0D"
+        android:strokeWidth="2.5" />
+
+    <!-- Right Canyon Sheer Limestone Wall (Sunlit Red Cliffs) -->
+    <path
+        android:pathData="M230,0 L400,0 L400,240 L240,240 L255,200 L220,150 L260,95 L225,50 L245,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="220"
+                android:startY="100"
+                android:endX="400"
+                android:endY="100"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E07D53" />
+                <item android:offset="0.4" android:color="#C46039" />
+                <item android:offset="1.0" android:color="#8A371B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Cliff Ridges -->
+    <path
+        android:pathData="M235,45 Q310,40 390,35 M250,90 Q330,85 400,80 M230,140 Q310,145 385,135 M248,190 Q320,195 400,185"
+        android:strokeColor="#732B13"
+        android:strokeWidth="2.5" />
+
+    <!-- Canyon Floor / Winding River Path -->
+    <path
+        android:pathData="M160,240 L170,200 L210,190 L240,240 Z"
+        android:fillColor="#E8D1B2" />
+
+    <!-- Todra River stream passing through gorge -->
+    <path
+        android:pathData="M175,240 Q190,215 200,200 Q205,195 210,190"
+        android:strokeColor="#3F85A7"
+        android:strokeWidth="4" />
+
+    <!-- Tinghir Oasis Date Palms at Canyon Gate -->
+    <path
+        android:pathData="M185,208 c-2,-7 3,-14 8,-19 c-5,0 -10,3 -13,7 M193,189 c-3,-5 -8,-8 -13,-8 c5,4 7,10 6,15 M193,189 c3,-5 8,-8 13,-6 c-5,4 -7,10 -6,15"
+        android:strokeColor="#2F6B4F"
+        android:strokeWidth="2" />
+    <path android:pathData="M193,189 l-1,22" android:strokeColor="#4A2D16" android:strokeWidth="1.8" />
+</vector>

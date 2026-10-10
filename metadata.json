@@ -1,0 +1,6 @@
+{
+  "name": "SIA",
+  "description": "Smart Tourism Experience Platform for Drâa-Tafilalet, Morocco.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

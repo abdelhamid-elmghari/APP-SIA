@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Warm Golden Sky -->
+    <path
+        android:pathData="M0,0h400v240h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="240"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDF3E3" />
+                <item android:offset="0.6" android:color="#F7DFBF" />
+                <item android:offset="1.0" android:color="#E6B485" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Jbel Zagora Mountain Crest in background -->
+    <path
+        android:pathData="M0,130 L110,85 L210,120 L280,75 L360,115 L400,95 L400,240 L0,240 Z"
+        android:fillColor="#BD6843" />
+
+    <!-- Distant Clay Kasbahs in Palm Grove -->
+    <path
+        android:pathData="M80,125 h18 v25 h-18 z M104,130 h14 v20 h-14 z M220,120 h26 v30 h-26 z"
+        android:fillColor="#8F3F20" />
+
+    <!-- Endless Emerald Palm Grove Forest (Palmeraie of Drâa) -->
+    <!-- Dense Palms Middle Layer -->
+    <path
+        android:pathData="M0,150 Q100,135 200,145 Q300,135 400,148 L400,240 L0,240 Z"
+        android:fillColor="#265B42" />
+
+    <!-- Foreground Oasis Layer -->
+    <path
+        android:pathData="M0,180 Q120,165 240,175 Q330,168 400,175 L400,240 L0,240 Z"
+        android:fillColor="#2F6B4F" />
+
+    <!-- Oued Drâa River Winding Water -->
+    <path
+        android:pathData="M0,225 Q130,200 240,215 Q320,205 400,230 L400,240 L0,240 Z"
+        android:fillColor="#4D8B9E" />
+
+    <!-- Foreground Palm silhouettes -->
+    <path
+        android:pathData="M35,225 c-3,-16 8,-32 20,-44 c-12,0 -24,8 -30,18 M55,181 c-7,-13 -20,-20 -33,-19 c13,10 18,25 15,38 M55,181 c7,-13 21,-20 34,-16 c-12,12 -17,26 -14,39"
+        android:strokeColor="#1F4733"
+        android:strokeWidth="3.2" />
+    <path android:pathData="M55,181 l-3,50" android:strokeColor="#382110" android:strokeWidth="2.8" />
+</vector>
